@@ -140,7 +140,7 @@ end
 -- GUI Creation
 local function createGUI()
 	screenGui = Instance.new("ScreenGui")
-	screenGui.Name = "Ziaa_FE_Refined"
+	screenGui.Name = "Cat_jack_project_hub"
 	screenGui.ResetOnSpawn = false
 	screenGui.Parent = player:WaitForChild("PlayerGui")
 
