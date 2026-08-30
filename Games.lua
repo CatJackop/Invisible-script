@@ -164,7 +164,7 @@ local function createGUI()
 	local titleLabel = Instance.new("TextLabel")
 	titleLabel.Size = UDim2.new(1, 0, 0, 38)
 	titleLabel.Position = UDim2.new(0, 0, 0, 5)
-	titleLabel.Text = "FE INVISIBILITY"
+	titleLabel.Text = "cat jack invisible script"
 	titleLabel.BackgroundTransparency = 1; titleLabel.TextColor3 = CONFIG.TEXT_COLOR
 	titleLabel.Font = Enum.Font.GothamBold; titleLabel.TextSize = 10; titleLabel.Parent = mainFrame
 
@@ -224,7 +224,7 @@ local function createGUI()
 
 	-- Footer
 	local footer = Instance.new("TextLabel")
-	footer.Size = UDim2.new(1, 0, 0, 15); footer.Position = UDim2.new(0, 0, 1, -15); footer.Text = "by ziaa on scriptblox"
+	footer.Size = UDim2.new(1, 0, 0, 15); footer.Position = UDim2.new(0, 0, 1, -15); footer.Text = "by cat jack on scriptblox"
 	footer.BackgroundTransparency = 1; footer.TextColor3 = Color3.fromRGB(255, 255, 255); footer.TextTransparency = 0.5; footer.Font = Enum.Font.GothamBold; footer.TextSize = 6; footer.Parent = mainFrame
 	local footGlow = Instance.new("UIStroke", footer); footGlow.Color = Color3.fromRGB(255, 255, 255); footGlow.Transparency = 0.85; footGlow.Thickness = 0.4
 
